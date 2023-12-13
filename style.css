@@ -67,3 +67,279 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+.grid-container {
+  margin: 3rem 0 0 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+
+  list-style-type: none;
+  padding: 0rem;
+}
+
+.Item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  background-color: lavender;
+  min-width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: black 1px 3px 3px;
+}
+
+.Item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  background-color: pink;
+  min-width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: black 1px 3px 3px;
+}
+
+.Item3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  background-color: lightpink;
+  min-width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: black 1px 3px 3px;
+}
+.Item4 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  background-color: lightblue;
+  min-width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: black 1px 3px 3px;
+}
+
+.Item5 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  background-color: lightblue;
+  min-width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: black 1px 3px 3px;
+}
+
+.Item6 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  background-color: lavender;
+  min-width: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  display: flex;
+  text-align: left;
+  box-shadow: black 1px 3px 3px;
+}
+
+.Hero {
+  position: center;
+  text-align: center;
+} 
+
+.AboutMe {
+  margin: 3rem;
+  padding: 2rem;
+
+}
+
+.Amy {
+  border: 5px;
+  border-radius: 10%;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin: 1rem
+}
+
+.AmyButton {
+  background-color: lightpink;
+  border-radius: 10%;
+  border-style: none;
+}
+
+.ContactMe {
+  min-width: 500px;
+  padding: 4rem;
+  margin: 1rem;
+  background-color: lavender;
+  border-radius: 20px;
+  text-align: start;
+  box-shadow: black 1px 3px 3px;
+}
+
+.CMButton {
+  background-color: black;
+  color: white;
+  min-width: none;
+  border-radius: 10%;
+}
+
+.MyWork {
+  margin: 5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4rem;
+
+  list-style-type: none;
+  padding: 0rem;
+  align-content: center;
+}
+
+.ItemW1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.ItemW2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.ItemW3 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.ItemW4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.WTag {
+  display: flex;
+}
+
+.WHL {
+  border-radius: 30%;
+  background-color: pink;
+  margin-right : 2px;
+  padding: 2px;
+}
+
+.WCS {
+  border-radius: 30%;
+  background-color: pink;
+  margin-right : 2px;
+  padding: 2px;
+}
+
+.WJS {
+  border-radius: 30%;
+  background-color: pink;
+  margin-right : 2px;
+  padding: 2px;
+}
+
+.Work {
+  margin : 1rem;
+  padding-top: 4rem;
+}
+.work-Img {
+  border: flex;
+  border-radius: 5%;
+  border-style: solid;
+  width: 300px;
+  height: 400px;
+}
+
+.AmyWork {
+  text-align: center;
+}
+
+Header {
+  margin: 0 auto;
+  padding: 0 1.0rem;
+  position: top;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 0 1.0rem;
+  position: bottom;
+}
+
+.LogoH {
+width: 40px;
+height: 40px;
+text-align: right;
+background-color: black;
+border-radius: 1%;
+}
+
+.LogoF {
+  width: 40px;
+  line-height: 40px;
+  font-size: 0.7em;
+}
+
+.FA {
+  width: 100%;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align:
+  bottom:0;
+}
+
+.HC {
+  align-items: right;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+  border-style: none;
+}
